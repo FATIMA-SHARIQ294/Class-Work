@@ -1,0 +1,12 @@
+Wrap in a Function
+
+Wrapping your code in a function is a way to create a new scope each time the function is called. In JavaScript (and TypeScript), variables declared with let or const are block-scoped, meaning they are confined to the block in which they are declared. By wrapping your code in a function, you ensure that each time the function is called, a new scope is created, preventing redeclaration errors.
+
+Why This Works
+
+Scope Isolation: Variables declared within a function are not accessible outside that function. This isolates the variable declarations to the function scope, preventing redeclaration issues.
+
+Modularity: Wrapping code in functions makes it more modular and reusable. You can call runProgram() whenever you need to run this 
+specific piece of code.
+
+Avoiding Global Scope: Declaring variables globally can lead to conflicts and bugs, especially in larger programs. Using functions helps avoid cluttering the global scope.
