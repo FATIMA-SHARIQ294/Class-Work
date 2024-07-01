@@ -1,0 +1,20 @@
+So, the addition, subtraction,multiplication and division were pretty simple now I'll explain the comparision files.
+1.Variable Declarations and Equality Checking
+ ~wedClassNumbers is declared as a number with the value 7.
+ ~tueClassNumbers is declared with the type any and assigned the string "7".
+ ~console.log(wedClassNumbers == tueClassNumbers); checks for equality using ==. This is called loose equality and performs type coercion, meaning it will convert the operands to the same type before making the comparison. Since 7 (number) and "7" (string) are considered equal after type coercion, this will output true.
+ ~console.log(wedClassNumbers === tueClassNumbers); checks for equality using ===. This is called strict equality and does not perform type coercion. Since 7 (number) and "7" (string) are of different types, this will output false.
+WHAT IS coercion 
+ Coercion in programming refers to the automatic or implicit conversion of values from one data type to another. This can happen in various contexts, such as during mathematical operations, comparisons, or when passing values to functions that expect a certain type. 
+ For example, when using the == operator, JavaScript will convert the operands to a common type before making the comparison. 
+
+2.Color Comparison:
+ dressColour, dressColour1, dressColour2 are the string
+ console.log(dressColor != dressColour1); compares dressColor with dupataColorOne using != (not equal). Since both are "black", this will output FALSE
+ console.log(dressColor != dressColour2); compares dressColor with dupataColorTwo using !=. Since "black" is not equal to "Red", this will output TRUE.
+3. String Concatenation:
+ myFirstName is declared as a string with the value "fatima".
+ myLastName is declared as a string with the value "Shariq".
+ console.log(myFirstName + " wolf" + myLastName); 
+WHAT IS Concatenation
+ Concatenation is the process of joining two or more strings together to form a single string. In most programming languages, this is typically done using the + operator, although some languages provide other methods or functions for concatenation.
