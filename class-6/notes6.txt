@@ -1,0 +1,51 @@
+FOR 1. 
+Execution Flow
+The program first assigns the value "Wednesday" to the variable ClassDay.
+Then, it evaluates the condition in the if statement.
+Since ClassDay is "Wednesday", the condition ClassDay === "Wednesday" is true.
+Therefore, it executes the if block and prints: Go to class.
+The else block is skipped because the if condition was true.
+
+FOR 2.
+Summary:
+The first condition checks if homeFood is "DaalChawal" and moneyIHave is 300. If both conditions are true, it prints "Go out and buy biryani".
+If the first condition is false, it checks if moneyIHave is greater than or equal to zingerPrice. If this condition is true, it prints "Buy zinger".
+If none of the conditions are met, it prints "Eat DaalChawal".
+
+
+FOR 3. SAME AS 4 BUT IT NUMBER WHILE 4 IS STRING
+
+FOR 4.
+The provided code uses a switch statement to execute different blocks of code based on the value of the foodItem variable. Let's break down how it works.
+Variable Declaration:
+This line declares a variable foodItem and assigns it the string value "pizza".
+
+Switch Statement:
+The switch statement evaluates the value of foodItem.
+
+Case Statements:
+The switch statement has multiple case clauses, each representing a potential value for foodItem.
+
+Summary:
+The switch statement evaluates the value of foodItem.
+It compares the value of foodItem against each case.
+When it finds a matching case, it executes the corresponding code block and then exits the switch statement using break.
+If no matching case is found, none of the code blocks are executed.
+
+
+FOR 5.
+The code provided demonstrates the use of logical operators (&& for logical AND and || for logical OR) in TypeScript. Let's break down the code and explain how it works.
+Variable Declarations:
+These lines declare two boolean variables:
+isMyBirthday: Indicates if it is your birthday (set to true).
+amIHappy: Indicates if you are happy (set to false).
+
+Logical AND Check:
+The && operator returns true only if both operands are true.
+In this case, isMyBirthday is true and amIHappy is false.
+Since both conditions must be true for the if statement to execute, this block will not execute because amIHappy is false.
+
+Logical OR Check:
+The || operator returns true if at least one of the operands is true.
+Here, isMyBirthday is true and amIHappy is false.
+Since at least one condition is true, the if statement will execute and print: Happy birthday but i am not happy.
