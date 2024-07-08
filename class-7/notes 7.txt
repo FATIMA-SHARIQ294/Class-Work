@@ -1,0 +1,35 @@
+
+ARRAY is a data type.
+` const cart: string[] = ["Rice", "Wheat", "Oil"]; 
+"cart" is the varriable, which is needed to store a varriable.
+to define an ARRAY we use []
+string is defined as the type of array.
+["Rice".....] is called initialization.
+ 
+LINE 12-16
+ARRAY DECLARATION AND INITIALIZATION 
+myContacts is varriable.
+Array<string>, is an array of string. this syntax is an alternative to "string[]" and serves as same purpose.
+the name are the initialization
+  
+  
+Summary
+ This code demonstrates how to:
+
+ Declare and initialize arrays using both string[] and Array<string> syntax.
+ 
+ Access elements by their index.
+ 
+ Modify existing elements and add new elements to an array.
+ 
+ Get the length of an array.
+ 
+ Add and remove elements using push and pop.
+ 
+ Declare a readonly array, which prevents modifications to the array's elements.
+
+               TUPLES
+ Tuples in TypeScript are a specific kind of array that can have elements of different types and a fixed length
+
+               Summary
+In summary, the code demonstrates the creation of a tuple with specific types, but also shows that TypeScript does not enforce type safety beyond the initial defined length of the tuple. When you use the push method to add elements, TypeScript does not restrict the types of these additional elements. This can lead to unintended consequences and errors if not carefully managed. 
